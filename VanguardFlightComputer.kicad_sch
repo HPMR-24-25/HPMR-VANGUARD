@@ -1,0 +1,165 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8210c139-a891-4d19-b6af-0ce30997a2bf")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 219.71 85.09)
+		(size 54.61 68.58)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1347638a-1f77-4117-846f-092a26f2e048")
+		(property "Sheetname" "IO"
+			(at 219.71 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io.kicad_sch"
+			(at 219.71 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VanguardFlightComputer"
+				(path "/8210c139-a891-4d19-b6af-0ce30997a2bf"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 15.24)
+		(size 130.81 64.77)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4d9c6f0c-6e2e-4336-8105-33caf36b8bd3")
+		(property "Sheetname" "Power Regulation"
+			(at 143.51 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 143.51 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VanguardFlightComputer"
+				(path "/8210c139-a891-4d19-b6af-0ce30997a2bf"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 15.24)
+		(size 124.46 138.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7467099e-b1ad-4267-ab3b-f40eae42649d")
+		(property "Sheetname" "STM32"
+			(at 15.24 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32.kicad_sch"
+			(at 15.24 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VanguardFlightComputer"
+				(path "/8210c139-a891-4d19-b6af-0ce30997a2bf"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 85.09)
+		(size 71.12 68.58)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d1d47f35-1c6b-4bd8-abfd-61ce400b06bd")
+		(property "Sheetname" "Sensors"
+			(at 143.51 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 143.51 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VanguardFlightComputer"
+				(path "/8210c139-a891-4d19-b6af-0ce30997a2bf"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
