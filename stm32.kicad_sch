@@ -4034,6 +4034,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 59.69) (xy 156.21 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ffd6360-39e6-4662-9026-9b59f1e8f007")
+	)
+	(wire
+		(pts
 			(xy 152.4 173.99) (xy 154.94 173.99)
 		)
 		(stroke
@@ -4051,6 +4061,16 @@
 			(type default)
 		)
 		(uuid "825681ba-fd3a-4c67-ad6a-86b688fca8d1")
+	)
+	(wire
+		(pts
+			(xy 152.4 49.53) (xy 156.21 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869755c9-7c22-4ba7-b7d5-1ef1e024584f")
 	)
 	(wire
 		(pts
@@ -4523,6 +4543,50 @@
 		(uuid "8e40375e-104f-42e0-a7b6-e6852e1ff8b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 166.5128 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_CS"
+		(shape input)
+		(at 156.21 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97b76f19-9a3e-4922-923e-9f8d39801b47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.1218 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TELEM_CS"
+		(shape input)
+		(at 156.21 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b4d6d09-208d-40b8-9574-a6beb33c5e9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.3874 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5421,7 +5485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 254 59.9948 0)
 			(effects
 				(font
@@ -5491,7 +5555,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 269.5448 90.17 0)
 			(effects
 				(font
@@ -5626,7 +5690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 254 42.2148 0)
 			(effects
 				(font
@@ -6317,7 +6381,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 212.3948 91.44 0)
 			(effects
 				(font

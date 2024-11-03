@@ -48,4 +48,10 @@ K
 F https://www.littelfuse.com/~/media/electronics/product_specifications/polymer_esd_suppressors/littelfuse_polymer_esd_suppressor_pesd0402_140_product_specification.pdf.pdf
 $ENDCMP
 #
+$CMP 830069390
+D 32 MHz +/-20ppm Crystal 10pF 70 Ohms 4-SMD, No Lead
+K
+F https://www.we-online.com/catalog/datasheet/830069390.pdf
+$ENDCMP
+#
 #End Doc Library

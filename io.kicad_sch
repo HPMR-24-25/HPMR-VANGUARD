@@ -3327,7 +3327,7 @@
 			)
 		)
 	)
-	(global_label "SPI1_CS"
+	(global_label "SD_CS"
 		(shape input)
 		(at 172.72 46.99 180)
 		(fields_autoplaced yes)
@@ -3339,7 +3339,7 @@
 		)
 		(uuid "83666f6e-b5d8-44f3-8965-e8ed746b0b1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.9939 46.99 0)
+			(at 163.8082 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
