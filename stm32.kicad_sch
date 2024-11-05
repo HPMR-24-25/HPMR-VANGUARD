@@ -3662,12 +3662,6 @@
 		(uuid "01ac1bd6-6c82-499b-bf1e-da5c2d69ae17")
 	)
 	(junction
-		(at 158.75 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "03ad37f8-65d4-4715-b13e-9865219a5ad2")
-	)
-	(junction
 		(at 129.54 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3740,6 +3734,12 @@
 		(uuid "b59ab271-b9a4-492d-b8c7-e19ca8e83c1d")
 	)
 	(junction
+		(at 158.75 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1713e1d-c482-4c65-9bc5-bf22ebb392aa")
+	)
+	(junction
 		(at 132.08 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3782,6 +3782,16 @@
 			(type default)
 		)
 		(uuid "0e0e9ba7-b510-46da-a798-565c2b8677cf")
+	)
+	(wire
+		(pts
+			(xy 124.46 41.91) (xy 127 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1705c4b3-bb04-435a-810e-6cb5b85f9420")
 	)
 	(wire
 		(pts
@@ -3832,6 +3842,16 @@
 			(type default)
 		)
 		(uuid "217b8fbf-d986-46cd-8153-d21f22aa47af")
+	)
+	(wire
+		(pts
+			(xy 147.32 39.37) (xy 147.32 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c8f749-e66e-4600-9128-cec1e6ef8e40")
 	)
 	(wire
 		(pts
@@ -3945,13 +3965,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 30.48) (xy 170.18 30.48)
+			(xy 106.68 72.39) (xy 109.22 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45ba0379-eb23-4759-afc6-36258f240086")
+		(uuid "3f3dbffa-3c16-46ad-9154-fee1283b14f6")
 	)
 	(wire
 		(pts
@@ -3975,7 +3995,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 22.86) (xy 170.18 25.4)
+			(xy 170.18 22.86) (xy 170.18 24.13)
 		)
 		(stroke
 			(width 0)
@@ -4015,7 +4035,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 38.1) (xy 158.75 40.64)
+			(xy 158.75 38.1) (xy 158.75 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4185,13 +4205,43 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 38.1) (xy 158.75 38.1)
+			(xy 170.18 30.48) (xy 158.75 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a1b794-ab41-4bb2-8be8-61cce0ef7b7a")
+	)
+	(wire
+		(pts
+			(xy 147.32 39.37) (xy 158.75 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b9f6c914-97da-4717-ab14-febe483627aa")
+	)
+	(wire
+		(pts
+			(xy 170.18 29.21) (xy 170.18 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ebe684-fa1b-490d-9fd7-bd7f9df19ca6")
+	)
+	(wire
+		(pts
+			(xy 152.4 113.03) (xy 154.94 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c58406ff-49fd-4f25-b7ae-b3c079a0378c")
 	)
 	(wire
 		(pts
@@ -4325,6 +4375,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 74.93) (xy 109.22 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f615e05e-d042-415c-9ce4-ab14806f0023")
+	)
+	(wire
+		(pts
 			(xy 165.1 106.68) (xy 165.1 107.95)
 		)
 		(stroke
@@ -4345,6 +4405,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 39.37) (xy 158.75 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f92fa8c1-a23e-468e-9098-85976cc91d05")
+	)
+	(wire
+		(pts
 			(xy 270.51 88.9) (xy 270.51 90.17)
 		)
 		(stroke
@@ -4352,6 +4422,38 @@
 			(type default)
 		)
 		(uuid "fc327ede-3076-47e1-bd03-f6e4ca9ac53c")
+	)
+	(wire
+		(pts
+			(xy 152.4 115.57) (xy 154.94 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe6d5da3-3a05-4e92-b573-ab7019b1523c")
+	)
+	(global_label "SERVO_2_PWM"
+		(shape input)
+		(at 106.68 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27b22565-744b-4443-b724-34c681043871")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.3297 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "OSC_IN"
 		(shape input)
@@ -4551,6 +4653,28 @@
 			)
 		)
 	)
+	(global_label "SERVO_3_PWM"
+		(shape input)
+		(at 154.94 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89759d25-b5d7-4f62-be29-46bea40709b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.2903 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_DP"
 		(shape input)
 		(at 156.21 80.01 0)
@@ -4630,6 +4754,28 @@
 		(uuid "a3586c2b-459b-4982-a985-ede6c9f25c7f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 283.1714 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SERVO_4_PWM"
+		(shape input)
+		(at 154.94 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7afb2c1-240b-4684-a3c0-cad458121df6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.2903 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,6 +4873,28 @@
 			)
 		)
 	)
+	(global_label "SERVO_1_PWM"
+		(shape input)
+		(at 106.68 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3b075ee-5f1b-4b1e-9812-8ede1132fcb6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.3297 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI1_MISO"
 		(shape input)
 		(at 156.21 64.77 0)
@@ -4799,7 +4967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 159.7152 38.1 0)
 			(effects
 				(font
@@ -5958,7 +6126,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 170.18 27.94 0)
+		(at 170.18 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5967,7 +6135,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd47ae75-9310-4dba-a906-fd900bb4e4f8")
 		(property "Reference" "FB1"
-			(at 172.72 26.6318 0)
+			(at 172.72 25.3618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5976,7 +6144,7 @@
 			)
 		)
 		(property "Value" "1k 100MHz"
-			(at 172.72 29.1718 0)
+			(at 172.72 27.9018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5984,8 +6152,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 168.402 27.94 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 168.402 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5994,7 +6162,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/281/ENFA0004-1915711.pdf"
-			(at 170.18 27.94 0)
+			(at 170.18 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6003,7 +6171,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
-			(at 170.18 27.94 0)
+			(at 170.18 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +6222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 87.3252 168.91 0)
 			(effects
 				(font
@@ -6194,7 +6362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 148.2852 38.1 0)
 			(effects
 				(font
@@ -6400,7 +6568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.0252 168.91 0)
 			(effects
 				(font
