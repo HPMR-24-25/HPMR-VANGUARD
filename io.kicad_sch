@@ -6902,7 +6902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MEM20670218000A"
+		(property "Footprint" "VanguardLib:MEM20670218000A"
 			(at 254 138.1 0)
 			(effects
 				(font

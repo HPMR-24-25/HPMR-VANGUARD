@@ -4633,7 +4633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LSM6DS3USTR"
+		(property "Footprint" "VanguardLib:LSM6DS3USTR"
 			(at -4.75 66.04 0)
 			(effects
 				(font
@@ -5516,7 +5516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAXM10S00B"
+		(property "Footprint" "VanguardLib:MAXM10S00B"
 			(at 226.06 204.14 0)
 			(effects
 				(font
@@ -5885,7 +5885,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "DIONC1005X43N"
+		(property "Footprint" "VanguardLib:DIONC1005X43N"
 			(at 229.54 120.65 0)
 			(effects
 				(font
